@@ -16,6 +16,7 @@ header {
 
 ul {
     list-style: none;
+    display: none;
 }
 
 li {
@@ -55,4 +56,17 @@ fieldset {
 
 footer {
     text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+    
+    .burger-icon-menu {
+        display: none;
+    }
+    
+    ul {
+        display: inline;
+    }
+
+    
 }
