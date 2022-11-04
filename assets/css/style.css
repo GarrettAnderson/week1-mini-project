@@ -1,7 +1,40 @@
+body {
+    margin: 0;
+}
+
 header {
-    background-color: #F53B00;
+    /* background-color: #F53B00; */
+    background-color: #FE8946;
+    margin: 0;
+    color: #F7F7F5;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: #F7F7F5;
+    text-decoration: none;
+}
+
+h1, figure, section {
+    text-align: center;
 }
 
 img {
     width: 60rem;
+}
+
+form {
+    width: 20%;
+    margin: 0 auto;
 }
