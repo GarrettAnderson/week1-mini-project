@@ -26,6 +26,7 @@ i {
 ul {
     list-style: none;
     display: none; 
+    transition:all .26s ease-in-out;
 }
 
 ul.open {
@@ -34,12 +35,11 @@ ul.open {
     text-align: center;
     width: 100%;
     height: auto;
-    transition:all .26s ease-in-out;
 }
 
 li {
     display: inline;
-    margin: 0 2rem;
+    margin: 0.5rem 2rem;
 }
 
 a {
